@@ -1,12 +1,13 @@
 {
-  "name": "@camwiegert/typical",
-  "version": "0.1.1",
+  "name": "@tomskopek/typical",
+  "version": "0.1.2",
   "description": "Animated typing in ~400 bytes",
   "scripts": {
-      "test": "node -r esm test"
+    "test": "node -r esm test"
   },
-  "main": "typical.ts",
+  "main": "lib/typical.js",
   "author": "Cam Wiegert <cam@camwiegert.com>",
+  "contributors": ["Tom Skopek"],
   "homepage": "https://github.com/camwiegert/typical",
   "repository": "https://github.com/camwiegert/typical",
   "license": "MIT",
