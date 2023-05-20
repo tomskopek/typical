@@ -1,9 +1,11 @@
 # typical
 
+A fork of [camwiegert/typical](https://github.com/camwiegert/typical)
+
 > Animated typing in ~400 bytes :blowfish: of JavaScript.
 
 - **Zero dependencies**
-- **MIT licensed** [→](https://github.com/camwiegert/typical/tree/master/LICENSE)
+- **MIT licensed** [→](https://github.com/tomskopek/typical/tree/master/LICENSE)
 - **Emoji support**
 - **Smart delete:** only delete what needs deleting
 - **Pausing:** pause between steps
@@ -20,18 +22,14 @@
 ## Install
 
 ```shell
-npm install @camwiegert/typical
+npm install @tomskopek/typical
 ```
-
-<details>
-  <summary><strong>More install options</strong></summary>
-  <p>Instead of using a package manager, you can download <code>typical.js</code> from <a href="https://raw.githubusercontent.com/camwiegert/typical/master/typical.js">GitHub</a> and import it locally or import it directly from a CDN like <a href="https://unpkg.com/@camwiegert/typical">unpkg</a>.</p>
-</details>
 
 ## API
 
 ```typescript
 type(target: HTMLElement, ...steps: any[]) => Promise<void>;
+type(target: { node: HTMLElement, textAccessor: 'textContent' | 'placeholder' }, ...steps: any[]) => Promise<void>;
 ```
 
 The module exports a single function, `type`, which takes a target element as its first argument, and any number of additional arguments as the steps to perform. Additional arguments perform actions based on their type:
@@ -48,7 +46,7 @@ The module exports a single function, `type`, which takes a target element as it
 The most basic usage of `type` is providing a target element and a string to type.
 
 ```javascript
-import { type } from '@camwiegert/typical';
+import { type } from '@tomskopek/typical';
 
 type(element, 'text');
 ```

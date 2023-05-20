@@ -8,8 +8,8 @@
   "main": "lib/typical.js",
   "author": "Cam Wiegert <cam@camwiegert.com>",
   "contributors": ["Tom Skopek"],
-  "homepage": "https://github.com/camwiegert/typical",
-  "repository": "https://github.com/camwiegert/typical",
+  "homepage": "https://github.com/tomskopek/typical",
+  "repository": "https://github.com/tomskopek/typical",
   "license": "MIT",
   "devDependencies": {
     "esm": "^3.2.25",
