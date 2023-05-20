@@ -23,7 +23,7 @@ export async function type(node: NodeInput, ...args: ArgsType) {
                 await wait(arg);
                 break;
             case 'function':
-                await arg(nodeElement, ...args);
+                await arg(node, ...args);
                 break;
             default:
                 await arg;
