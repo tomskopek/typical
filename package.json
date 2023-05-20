@@ -1,6 +1,6 @@
 {
   "name": "@tomskopek/typical",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "description": "Animated typing in ~400 bytes",
   "scripts": {
     "test": "node -r esm test"
