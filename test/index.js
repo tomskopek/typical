@@ -5,7 +5,7 @@ import {
     editor,
     getOverlap,
     writer
-} from '../typical.js';
+} from '../typical.ts';
 
 test('deleter', t => {
     t.ok(

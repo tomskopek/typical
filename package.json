@@ -5,7 +5,7 @@
   "scripts": {
       "test": "node -r esm test"
   },
-  "main": "typical.js",
+  "main": "typical.ts",
   "author": "Cam Wiegert <cam@camwiegert.com>",
   "homepage": "https://github.com/camwiegert/typical",
   "repository": "https://github.com/camwiegert/typical",
